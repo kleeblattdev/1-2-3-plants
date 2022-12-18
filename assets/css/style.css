@@ -59,6 +59,7 @@ header {
     background-position: center;
     background-size: cover;
     background-color: darkslategrey;
+    padding-bottom: 75px;
 }
 
 header h2 {
@@ -67,7 +68,6 @@ header h2 {
 }
 
 header section {
-    display: block;
     padding: 100px 500px;
 }
 
@@ -95,7 +95,7 @@ header section a {
 
 header nav {
     text-align: right;
-    padding: 50px
+    padding-right: 30px;
 }
 
 .headerLinksStyle {
@@ -106,7 +106,7 @@ header nav {
 /* Main Style */
 
 main{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 main h2 {
@@ -115,8 +115,7 @@ main h2 {
     text-align: center;
 }
 
-main p:first-of-type {
-    display: block;
+.centerP{
     margin: auto;
     padding: 0 450px 20px;
     text-align: center;
@@ -130,7 +129,7 @@ main section {
     box-shadow: 1px 2px 15px black;
 }
 
-article {
+div {
     text-align: center;
 }
 
@@ -152,21 +151,21 @@ footer {
 }
 
 footer p {
-    display:block;
     text-align: left;
-    padding: 30px 720px 30px 10px;
+    width: 600px;
+    padding: 20px;
 }
 
 .findUsStyle {
     display: block;
-    margin: auto 1250px 20px 15px;
+    width: 150px;
+    margin-left: 20px;
     padding: 10px 30px;
     text-align: center;
     border: 1px solid whitesmoke;
 }
 
 footer nav {
-    display: block;
     text-align: right;
     margin-right: 20px;
 }
